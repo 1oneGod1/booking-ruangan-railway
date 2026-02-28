@@ -1,0 +1,21 @@
+APP_NAME=Booking Ruangan SPH
+APP_ENV=production
+APP_DEBUG=false
+APP_KEY=base64:7lTnfPKDG9U2U9d9Ft2Gp8IVOEc5ndkJ3mHAUvk5MLQ=
+APP_URL=${{RAILWAY_PUBLIC_DOMAIN}}
+
+DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
+
+SESSION_DRIVER=file
+CACHE_DRIVER=file
+QUEUE_CONNECTION=sync
+
+LOG_CHANNEL=stack
+LOG_LEVEL=error
+
+EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+EMAILJS_SERVICE_ID=your_emailjs_service_id
+EMAILJS_TEMPLATE_ID_BOOKING_CREATED=your_template_id
+EMAILJS_TEMPLATE_ID_BOOKING_APPROVED=your_template_id
+EMAILJS_TEMPLATE_ID_BOOKING_REJECTED=your_template_id
